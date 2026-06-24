@@ -190,8 +190,8 @@ export const myProjects = [
   desc: "Kolab is a collaborative coding platform that enables developers to write, edit, and share code together in real time. It features synchronized code editing, secure user authentication, room-based collaboration, and an intuitive interface for seamless teamwork.",
   subdesc:
     "Built using the MERN stack and Socket.io, Kolab delivers low-latency real-time synchronization, scalable backend architecture, and efficient data management. It is designed to enhance productivity for developers, students, and teams working on coding projects collaboratively.",
-  href: "https://your-kolab-link.vercel.app/",
-  texture: "https://files.catbox.moe/m05bin.mp4",
+  href: "https://kolabb.netlify.app/",
+  texture: "https://files.catbox.moe/30cr5x.mp4",
   logo: "/assets/logo4.png",
   logoStyle: {
     backgroundColor: "#0E1F38",
@@ -203,12 +203,12 @@ export const myProjects = [
     {
       id: 1,
       name: "React.js",
-      path: "/assets/react.png",
+      path: "/assets/react.svg",
     },
     {
       id: 2,
       name: "Node.js",
-      path: "/assets/node.png",
+      path: "/assets/nodejs.png",
     },
     {
       id: 3,
@@ -217,8 +217,8 @@ export const myProjects = [
     },
     {
       id: 4,
-      name: "MongoDB",
-      path: "/assets/mongodb.png",
+      name: "TailwindCSS",
+      path: "assets/tailwindcss.png",
     },
   ],
   },
@@ -253,10 +253,10 @@ export const myProjects = [
         path: "/assets/js.png",
       },
       {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
+      id: 4,
+      name: "Socket.io",
+      path: "/assets/socketio.png",
+      }
     ],
   },
 ];
