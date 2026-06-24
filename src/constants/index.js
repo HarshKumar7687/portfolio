@@ -186,36 +186,41 @@ export const myProjects = [
     ],
   },
   {
-    title: "Cygnus - Online Video Conferencing Platform",
-    desc: "Cygnus is a high-performance video conferencing platform designed for seamless virtual communication. It supports HD calling, real-time messaging, screen sharing, participant controls, and secure room authentication.",
-    subdesc:
-      "Built using WebRTC, NextJS, and scalable backend logic, Cygnus delivers a smooth collaborative experience with low latency and strong privacy standards — ideal for meetings, online classes, and remote teams.",
-    href: "https://cygnus-5b8t.vercel.app/",
-    texture: "https://files.catbox.moe/m05bin.mp4",
-    logo: "/assets/logo4.png",
-    logoStyle: {
-      backgroundColor: "#0E1F38",
-      border: "0.2px solid #0E2D58",
-      boxShadow: "0px 0px 60px 0px #2F67B64D",
+  title: "Kolab - Real-Time Collaborative Coding Platform",
+  desc: "Kolab is a collaborative coding platform that enables developers to write, edit, and share code together in real time. It features synchronized code editing, secure user authentication, room-based collaboration, and an intuitive interface for seamless teamwork.",
+  subdesc:
+    "Built using the MERN stack and Socket.io, Kolab delivers low-latency real-time synchronization, scalable backend architecture, and efficient data management. It is designed to enhance productivity for developers, students, and teams working on coding projects collaboratively.",
+  href: "https://your-kolab-link.vercel.app/",
+  texture: "https://files.catbox.moe/m05bin.mp4",
+  logo: "/assets/logo4.png",
+  logoStyle: {
+    backgroundColor: "#0E1F38",
+    border: "0.2px solid #0E2D58",
+    boxShadow: "0px 0px 60px 0px #2F67B64D",
+  },
+  spotlight: "/assets/spotlight4.png",
+  tags: [
+    {
+      id: 1,
+      name: "React.js",
+      path: "/assets/react.png",
     },
-    spotlight: "/assets/spotlight4.png",
-    tags: [
-      {
-        id: 1,
-        name: "Next.js",
-        path: "/assets/next.png",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "ZegoCloud",
-        path: "/assets/zego.png",
-      },
-    ],
+    {
+      id: 2,
+      name: "Node.js",
+      path: "/assets/node.png",
+    },
+    {
+      id: 3,
+      name: "Socket.io",
+      path: "/assets/socketio.png",
+    },
+    {
+      id: 4,
+      name: "MongoDB",
+      path: "/assets/mongodb.png",
+    },
+  ],
   },
   {
     title: "ChessMaster - Strategic Multiplayer Chess Game",
